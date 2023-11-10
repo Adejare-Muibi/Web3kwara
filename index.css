@@ -1,0 +1,707 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow-x: hidden;
+}
+.allnav{
+    display: flex;
+    justify-content: space-around;
+}
+.sec1{
+    display: flex;
+    flex-direction: column;
+    gap: 260px;
+    background-image: url(./images/Background\ Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    color: white;
+}
+.logoo img{
+    /* height: 100vh; */
+}
+.links{
+    display: flex;
+    font-weight: bolder;
+    gap: 35px;
+    align-items: center;
+    font-size: 25px;
+}
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    
+}
+.btnlink{
+    display: flex;
+    padding: 15px 35px;
+    background-color: orange;
+    color: white;
+    font-size: 23px;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+}
+.divh1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.divh1 h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+.divh1 p{
+    font-size: 25px;
+    color: grey;
+}
+.div1 button{
+    display: flex;
+    padding: 20px 57px;
+    color: white;
+    background-color: orange;
+    font-size: 23px;
+    border: none;
+}
+.sec2{
+    background-color: #00000012;
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+}
+.div2{
+    display: flex;
+    gap: 100px;   
+}
+.div2 h1{
+    font-size: 53px;
+    font-weight: bolder;
+}
+.About{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.div2 p{
+    font-size: xx-large;
+    color: rgb(131, 121, 121);
+}
+.div2 img{
+    display: flex;
+    height: 40vh;    
+}
+
+.sec3{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+}
+.div3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 150px;
+
+}
+.div3 h1{
+    font-weight: bolder;
+    font-size: 60px;
+}
+.div-img3{
+    display: flex;
+    gap: 40px;
+
+}
+.div-block1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 25px 0;
+    box-shadow: 0 0 10px ;
+}
+.div-img3-1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.div-img3 h3{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.div-img3 h5{
+    line-height: 28px;
+    font-size: large;
+    font-weight: lighter;
+}
+.div-block2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 25px 0;
+    box-shadow: 0 0 10px ;
+}
+.div-img3-2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.div-block3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 25px 0;
+    box-shadow: 0 0 10px ;
+}
+.div-img3-3{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.sec4{
+    background-color: #EB780D1C;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 90px;    
+}
+.div4{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 150px;
+}
+.img-all{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.div4 h1{
+    font-size: 50px;
+}
+.div-img4-1 h3{
+    font-size: 40px;
+}
+.div-img4-1 p{
+    font-size: x-large;
+}
+.div-img4-1 .vec1{
+    height: 4vh;
+}
+.div-img4-1 .group1{
+    height: 6vh;
+}
+.divVec1{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.div-img4-1{
+    display: flex;
+    gap: 170px;
+}
+.ope1, .mr1, .ali1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+.div-ope, .div-mr, .div-ali{
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+}
+.div-img4-2 h3{
+    font-size: 40px;
+}
+.div-img4-2 p{
+    font-size: x-large;
+}
+.div-img4-2 .vec2{
+    height: 4vh;
+}
+.div-img4-2 .group2{
+    height: 6vh;
+}
+.divVec2{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.div-img4-2{
+    display: flex;
+    gap: 170px;
+}
+.ope2, .mr2, .ali2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+.div-ope2, .div-mr2, .div-ali2{
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+}
+
+
+.sec5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px;
+    
+}
+.div5{
+    display: flex;
+    gap: 200px; 
+}
+.div5 img{
+    height: 50vh;
+}
+.thank-all{
+    gap: 70px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+.thank{
+    gap: 13px;
+    display: flex;
+    flex-direction: column;
+}
+.thank h1{
+    font-size: 65px;
+}
+.thank p{
+    font-size: xx-large;
+}
+.btn{
+    padding: 25px 50px;
+    color: white;
+    background-color: darkorange;
+    border: none;
+    font-size: larger;
+}
+.sec6{
+    background-color: #D9D9D94F;
+    border-top:  solid rgb(211, 202, 202) thin;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 150px;
+
+}
+.div-footer{
+    display: flex;
+    gap: 360px; 
+    align-items: center;
+}
+
+.follow h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.follow{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.divVec7{
+    align-items: center;
+    display: flex;
+}
+.vec7{
+    height: 3.5vh;
+}
+.group7{
+    height: 5.6vh;
+}
+.ulfooter{
+    display: flex;
+    flex-direction: column;
+    font-weight: bolder;
+    font-size: xx-large;
+    gap: 25px;
+    list-style: none;
+}
+
+@media screen and (max-width: 950px){
+    main{
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+    }
+    .sec1{
+        /* width: 100%; */
+        flex-direction: column;
+        gap: 250px;
+        height: 100vh;
+        /* padding-bottom: 85px; */
+    }
+    .logoo{
+        /* padding-top: 50px; */
+    }
+    .logoo img{
+       display: flex; 
+       height: 15vh; 
+    }
+    .links{
+        display: none;
+    }
+    
+    .divh1{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    .divh1 h1{
+        font-size: 50px;
+        text-align: center;
+        font-weight: bolder;
+        /* width: 50%; */
+    }
+    .divh1 p{
+        font-size: x-large;
+        color: grey;
+    }
+    .div1 button{
+        display: flex;
+        padding: 26px 35px;
+        font-size: 23px;
+        border: none;
+        font-size: medium;
+    }
+    .sec2{
+        /* width: 100%; */
+        text-align: center;
+        gap: 30px;
+    
+    }
+    .div2{
+        flex-direction: column;
+        align-items: center;
+        gap: 70px;
+    }
+    .div2 h1{
+        font-size: 60px;
+        font-weight: bolder;
+        align-items: center;
+    }
+    .About{
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 35px;
+    }
+    .div2 p{
+        font-size: xx-large;
+        width:60%;
+        gap: 10px;
+        line-height: 32px;
+    }
+    .div2 img{
+        height: 40vh;
+    }
+
+    .sec3{
+        align-items: center;
+
+    }
+    .div3{
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+    .div3 h1{
+        font-weight: bolder;
+        font-size: xx-large;
+    }
+    .div-img3{
+        flex-direction: column;
+        gap: 40px;
+    
+    }
+    .div-block1{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        width: 100%;    
+    }
+    .div-block2{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        width: 100%;    
+    }
+    .div-block3{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        width: 100%;    
+    }
+    .div-img3-1, .div-img3-2, .div-img3-3{
+    align-items: center;
+       
+    }
+    .div-img3-1 img{
+       height: 25vh;
+    }
+    .div-img3-2 img{
+       height: 25vh;
+    }
+    
+    .div-img3-3 img{
+       height: 25vh;
+    }
+    
+    .div-block1 h3{
+        padding: 5px 53px;
+        font-weight: bolder;
+        font-size: x-large;
+    }
+    .div-block1 h5{
+        line-height: 28px;
+        font-size: large;
+        font-weight: lighter;
+    }
+    .div-block2 h5{
+        line-height: 28px;
+        font-size: large;
+        font-weight: lighter;
+    }
+    .div-block2 h3{
+        padding: 5px 53px;
+        font-weight: bolder;
+        font-size: x-large;
+    }
+    .div-block3 h3{
+        padding: 5px 53px;
+        font-weight: bolder;
+        font-size: x-large;
+    }
+    .div-block3 h5{
+        line-height: 28px;
+        font-size: large;
+        font-weight: lighter;
+    }
+   
+  
+
+
+    .sec4{
+
+    }
+    .div4{
+        gap: 90px;
+    }
+    .div4 h1{
+        font-size: xx-large;
+    }
+    .div-img4-1{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .div-img4-2{
+        flex-direction: column;
+        gap: 40px;
+    }
+   
+    .elipse{
+        /* height: 24vh; */
+    }
+    .img-all{
+        gap: 65px;
+    }
+
+
+    .sec5{
+        padding: 85px 0;
+        /* width: 100%; */
+    }
+    .div5{
+        flex-direction: column;
+        gap: 110px;
+        align-items: center;
+    }
+    .div5 img{
+        height: 35vh;
+    }
+    .thank-all{
+        text-align: center;
+    }
+    .thank h1{
+        font-size: 30px;
+    }
+    .thank p{
+        font-size: large;
+    }
+    .sec5-btn{
+        align-items: center;
+        text-align: center;
+    }
+
+
+    .sec6{
+        padding: 85px 0;
+    }
+    .div-footer{
+        gap: 40px;
+    }
+    .follow h1{
+        font-size: larger;
+    }
+    .ulfooter{
+        font-size: large;
+        gap: 20px;
+    }
+    .vec7{
+        height: 3vh;
+    }
+    .group7{
+        height: 4vh;
+    }
+
+
+    
+    
+    
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+    
+    
+    
+    
+
+    
+    
+     
+        
+
+
+
+
+
+
+
+
