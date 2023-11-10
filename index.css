@@ -419,10 +419,10 @@ main{
         gap: 35px;
     }
     .div2 p{
-        font-size: xx-large;
-        width:60%;
+        font-size: 21px;
+        width: 40%;
         gap: 10px;
-        line-height: 32px;
+        line-height: 30px;
     }
     .div2 img{
         height: 40vh;
@@ -430,6 +430,7 @@ main{
 
     .sec3{
         align-items: center;
+        justify-content: center;
 
     }
     .div3{
@@ -439,7 +440,9 @@ main{
     }
     .div3 h1{
         font-weight: bolder;
-        font-size: xx-large;
+        font-size: 60px;
+        align-items: center;
+        text-align: center;
     }
     .div-img3{
         flex-direction: column;
@@ -517,13 +520,19 @@ main{
 
 
     .sec4{
+        align-items: center;
+        /* justify-content: center; */
+        text-align: center;
+    
 
     }
     .div4{
         gap: 90px;
+        justify-content: center;
+        align-items: center;
     }
     .div4 h1{
-        font-size: xx-large;
+        font-size: 60px;
     }
     .div-img4-1{
         flex-direction: column;
@@ -535,7 +544,7 @@ main{
     }
    
     .elipse{
-        /* height: 24vh; */
+        height: 35vh;
     }
     .img-all{
         gap: 65px;
@@ -548,7 +557,7 @@ main{
     }
     .div5{
         flex-direction: column;
-        gap: 110px;
+        gap: 40px;
         align-items: center;
     }
     .div5 img{
@@ -556,12 +565,14 @@ main{
     }
     .thank-all{
         text-align: center;
+        gap: 30px;
     }
     .thank h1{
         font-size: 30px;
     }
     .thank p{
-        font-size: large;
+        font-size: 21px;
+        line-height: 32px;
     }
     .sec5-btn{
         align-items: center;
