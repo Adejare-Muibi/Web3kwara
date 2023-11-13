@@ -98,6 +98,7 @@ main{
 }
 .div2 p{
     font-size: xx-large;
+    width: 55%;
     color: rgb(131, 121, 121);
 }
 .div2 img{
@@ -419,11 +420,11 @@ main{
         gap: 35px;
     }
     .div2 p{
-        font-size: 21px;
-        width: 40%;
-        gap: 10px;
-        line-height: 30px;
+        font-size: 30px;
+        width: 70vw;
+        line-height: 40px;
     }
+  
     .div2 img{
         height: 40vh;
     }
@@ -600,10 +601,6 @@ main{
         height: 4vh;
     }
 
-    .About p{
-        width: 100vw;
-    }
-    
     
     
 
