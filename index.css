@@ -567,6 +567,11 @@ main{
     .thank-all{
         text-align: center;
         gap: 30px;
+        justify-content: center;
+    }
+    .thank{
+        display: flex;
+        align-items: center;
     }
     .thank h1{
         font-size: 30px;
@@ -574,6 +579,7 @@ main{
     .thank p{
         font-size: 21px;
         line-height: 32px;
+        width: 60%;
     }
     .sec5-btn{
         align-items: center;
@@ -599,6 +605,9 @@ main{
     }
     .group7{
         height: 4vh;
+    }
+    .divVec7{
+        gap: 8px;
     }
 
     
