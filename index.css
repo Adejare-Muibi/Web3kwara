@@ -42,10 +42,12 @@ main{
 }
 .btnlink{
     display: flex;
-    padding: 15px 35px;
+    padding: 6px 15px;
     background-color: orange;
     color: white;
     font-size: 23px;
+    cursor: pointer;
+    border: none;
 }
 .div1{
     display: flex;
@@ -71,24 +73,27 @@ main{
 }
 .div1 button{
     display: flex;
-    padding: 20px 57px;
+    padding: 13px 40px;
     color: white;
     background-color: orange;
     font-size: 23px;
     border: none;
+    cursor: pointer;
 }
 .sec2{
     background-color: #00000012;
-    display: flex;
+    padding: 90px 0px;
     justify-content: center;
-    padding: 90px;
+    align-items: center;
+    display: flex;
 }
 .div2{
     display: flex;
-    gap: 100px;   
+    align-items: center;
+    gap: 110px;
 }
 .div2 h1{
-    font-size: 53px;
+    font-size: 50px;
     font-weight: bolder;
 }
 .About{
@@ -97,20 +102,19 @@ main{
     gap: 30px;
 }
 .div2 p{
-    font-size: xx-large;
-    width: 55%;
+    font-size: x-large;
     color: rgb(131, 121, 121);
 }
 .div2 img{
     display: flex;
-    height: 40vh;    
+    height: 55vh;    
 }
 
 .sec3{
     background-color: white;
     justify-content: center;
     align-items: center;
-    padding: 90px;
+    padding: 90px 0px;
 }
 .div3{
     display: flex;
@@ -121,12 +125,15 @@ main{
 }
 .div3 h1{
     font-weight: bolder;
-    font-size: 60px;
+    font-size: 50px;
 }
 .div-img3{
     display: flex;
     gap: 40px;
 
+}
+.sec3 img{
+    height: 42vh;
 }
 .div-block1{
     display: flex;
@@ -162,6 +169,7 @@ main{
     display: flex;
     flex-direction: column;
     background-color: white;
+    /* align-items: center; */
 }
 .div-block3{
     display: flex;
@@ -174,6 +182,7 @@ main{
 .div-img3-3{
     display: flex;
     flex-direction: column;
+    /* align-items: center; */
     background-color: white;
 }
 
@@ -183,7 +192,7 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 90px;    
+    padding: 90px 0px;    
 }
 .div4{
     display: flex;
@@ -198,10 +207,10 @@ main{
     gap: 100px;
 }
 .div4 h1{
-    font-size: 50px;
+    font-size: 45px;
 }
 .div-img4-1 h3{
-    font-size: 40px;
+    font-size: 30px;
 }
 .div-img4-1 p{
     font-size: x-large;
@@ -234,7 +243,7 @@ main{
     flex-direction: column;
 }
 .div-img4-2 h3{
-    font-size: 40px;
+    font-size: 30px;
 }
 .div-img4-2 p{
     font-size: x-large;
@@ -266,13 +275,16 @@ main{
     gap: 7px;
     flex-direction: column;
 }
+.elipse{
+    height: 35vh;
+}
 
 
 .sec5{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 90px;
+    padding: 90px 0px;
     
 }
 .div5{
@@ -280,10 +292,10 @@ main{
     gap: 200px; 
 }
 .div5 img{
-    height: 50vh;
+    height: 55vh;
 }
 .thank-all{
-    gap: 70px;
+    gap: 43px;
     display: flex;
     flex-direction: column;
     padding-top: 40px;
@@ -294,17 +306,18 @@ main{
     flex-direction: column;
 }
 .thank h1{
-    font-size: 65px;
+    font-size: 50px;
 }
 .thank p{
-    font-size: xx-large;
+    font-size: x-large;
 }
 .btn{
-    padding: 25px 50px;
+    padding: 20px 40px;
     color: white;
     background-color: darkorange;
     border: none;
     font-size: larger;
+    cursor: pointer;
 }
 .sec6{
     background-color: #D9D9D94F;
@@ -312,7 +325,7 @@ main{
     justify-content: center;
     align-items: center;
     display: flex;
-    padding: 150px;
+    padding: 110px 0px;
 
 }
 .div-footer{
@@ -322,7 +335,7 @@ main{
 }
 
 .follow h1{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
 }
 .follow{
@@ -345,7 +358,7 @@ main{
     display: flex;
     flex-direction: column;
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: x-large;
     gap: 25px;
     list-style: none;
 }
@@ -366,7 +379,7 @@ main{
     .logoo{
         /* padding-top: 50px; */
     }
-    .logoo img{
+    .logoo img{ 
        display: flex; 
        height: 15vh; 
     }
@@ -387,7 +400,7 @@ main{
         /* width: 50%; */
     }
     .divh1 p{
-        font-size: x-large;
+        font-size: large;
         color: grey;
     }
     .div1 button{
@@ -420,9 +433,9 @@ main{
         gap: 35px;
     }
     .div2 p{
-        font-size: 30px;
-        width: 70vw;
-        line-height: 40px;
+        font-size: 20px;
+        width: 60vw;
+        line-height: 33px;
     }
   
     .div2 img{
@@ -450,76 +463,38 @@ main{
         gap: 40px;
     
     }
-    .div-block1{
+    .div-block1, .div-block2, .div-block3{
         display: flex;
         flex-direction: column;
         text-align: center;
-        gap: 10px;
-        width: 100%;    
-    }
-    .div-block2{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
-        width: 100%;    
-    }
-    .div-block3{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        gap: 10px;
-        width: 100%;    
+        align-items: center;
+        gap: 5px;
+        padding: 10px 0px;
     }
     .div-img3-1, .div-img3-2, .div-img3-3{
-    align-items: center;
+        align-items: center;
        
     }
-    .div-img3-1 img{
-       height: 25vh;
-    }
-    .div-img3-2 img{
-       height: 25vh;
+    .sec3 img{
+        height: 19vh;
     }
     
-    .div-img3-3 img{
-       height: 25vh;
+    .div-block1 h3, .div-block2 h3, .div-block3 h3{
+        padding: 5px 53px;
+        font-weight: bolder;
+        font-size: large;
+        width: 25vh;
     }
+    .div-block1 h5, .div-block2 h5, .div-block3 h5{
+        font-size: medium;
+        font-weight: lighter;
+        width: 40vw;
+        line-height: 20.3px;
+    }
+
     
-    .div-block1 h3{
-        padding: 5px 53px;
-        font-weight: bolder;
-        font-size: x-large;
-    }
-    .div-block1 h5{
-        line-height: 28px;
-        font-size: large;
-        font-weight: lighter;
-    }
-    .div-block2 h5{
-        line-height: 28px;
-        font-size: large;
-        font-weight: lighter;
-    }
-    .div-block2 h3{
-        padding: 5px 53px;
-        font-weight: bolder;
-        font-size: x-large;
-    }
-    .div-block3 h3{
-        padding: 5px 53px;
-        font-weight: bolder;
-        font-size: x-large;
-    }
-    .div-block3 h5{
-        line-height: 28px;
-        font-size: large;
-        font-weight: lighter;
-    }
+
    
-  
-
-
     .sec4{
         align-items: center;
         /* justify-content: center; */
@@ -586,10 +561,7 @@ main{
         text-align: center;
     }
 
-
-    .sec6{
-        padding: 85px 0;
-    }
+    
     .div-footer{
         gap: 40px;
     }
